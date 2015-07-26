@@ -137,6 +137,11 @@ footer {
   padding-right: 20px;
 }
 
+.ehologo {
+  float: right;
+  margin-top: 25px;
+}
+
 
 .footer-pic {
        padding-top: 20px;
@@ -163,37 +168,15 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 589px) {
 
-nav {
-   float: left;
+
+@media screen and (max-width: 328px) {
+
+.ehologo {
+  float: left;
 }
 
-}
 
-
-@media screen and (max-width: 450px) {
-
-navtop {
-   float: left;
-}
-
-.logo {
-  float: none
-}
-
-.profile-pic {
-   float: left;
-}
-
-.contact {
-   float: left;
-   width: 100%;
-}
-
-body {
-    font-size: 1em;
-}
 
 }
 
