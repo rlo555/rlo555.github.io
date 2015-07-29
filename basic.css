@@ -40,8 +40,8 @@ ul {
 
 a:link {
         color: #3366ff;
-        font-weight: normal;
-        text-decoration: underline;
+        font-weight: bold;
+        text-decoration: none;
         }
 
 a:visited {
