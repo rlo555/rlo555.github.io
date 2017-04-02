@@ -1,0 +1,212 @@
+/* General Styling */
+
+section[id] {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+section[id] img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 45px;
+    margin-top: -7px; 
+}
+
+hr.section {
+    width: 10%;
+    height: 2px;
+    background-color: #006dcc;
+}
+
+/* Section Styling - "Jumbotron" */
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-weight: bold;
+}
+
+.jumbotron button {
+    width: 100%;    
+}
+
+.jumbotron h2 {
+    margin-top: 1em;
+}
+
+.jumbotron p:nth-of-type(3) {
+    margin-bottom: 2.5em;       
+}
+
+.jumbotron {
+  background-image: url(../img/flhome.jpg);
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+#transparent {
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4; 
+  filter: alpha(opacity=0.2);
+  margin-top: -48px;
+  
+}
+
+/* Section Styling - "Why" */
+
+#why img {
+    margin-top: 50px;
+    max-width: 200px;
+}
+
+/* Section Styling - "Testimonials" */ 
+
+#testimonials {
+    background-color:#006dcc;
+    color: #FFF;
+}
+
+p.quoteSource {
+    text-align: right;
+    font-style: italic;
+    color:#FFF;
+}
+
+/* Section Styling - "How" */
+
+#how {
+    text-align: center;
+}
+
+#how span, #how i {
+    padding-top: 0.75em;
+}
+
+/* Section Styling - "What" */
+
+#what p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#what p:first-of-type {
+    margin-top: 20px;
+}
+
+#what p:nth-of-type(8) {
+    margin-bottom: 25px;
+}
+
+#what p:nth-of-type(9) {
+    margin-bottom: 50px;    
+}
+
+#what button {
+    width: 100%;
+}
+
+#what form {
+    border: 1px solid #006dcc;
+    background-color: #9cd2f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 3em 0;
+}
+
+#about p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#about form {
+    border: 1px solid #006dcc;
+    background-color: #9cd2f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 2em 0;
+}
+
+
+/* Section Styling - "Footer" */
+
+#footer {
+    background-color: #222;
+    color: #999;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#footer a,
+#footer a:visited,
+#footer a:active {
+    color: #FFF;
+}
+
+#footer p#copyright {
+    text-align: left;
+}
+
+#footer hr {
+    border-top: none;
+    height: 1px;
+    background-color: #333;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+    /* Fix transparent div bug */
+    #transparent {
+        height: 102%;
+    }
+
+    /* Center "Call" Button for small screens */
+    #what p:nth-of-type(9) {
+    text-align: center;    
+}
+
+   .carousel-inner, active {
+       box-sizing: border-box;
+       height: 200px;
+   }
+}
+
+@media (max-width: 500px) {
+    .carousel-inner {
+        height: 380px;
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-inner, active {
+       box-sizing: border-box;
+       height: 200px;
+   }
+}
+
+
+
