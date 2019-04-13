@@ -196,20 +196,20 @@ p.quoteSource {
 
    .carousel-inner, active {
        box-sizing: border-box;
-       height: 200px;
+       height: 300px;
    }
 }
 
 @media (max-width: 500px) {
     .carousel-inner {
-        height: 380px;
+        height: 300px;
     }
 }
 
 @media (min-width: 769px) {
     .carousel-inner, active {
        box-sizing: border-box;
-       height: 200px;
+       height: 300px;
    }
 }
 
