@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5 {
 
     /* Fix transparent div bug */
     #transparent {
-        height: 102%;
+        height: 100%;
     }
 
     /* Center "Call" Button for small screens */
