@@ -62,7 +62,7 @@ hr.section {
 
 #transparent {
   background-color: #000;
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0.4; 
@@ -258,6 +258,7 @@ h1, h2, h3, h4, h5 {
     /* Fix transparent div bug */
     #transparent {
         height: 102%;
+        margin-top: -50px;
     }
 
     /* Center "Call" Button for small screens */
